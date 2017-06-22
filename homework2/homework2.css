@@ -1,0 +1,163 @@
+*{
+	box-sizing: border-box;
+}
+
+
+body{
+	background: white;
+	margin: 0px;
+	font-family: Times;
+	text-align: left;
+	box-sizing: border-box;
+}
+
+header{
+	margin: 0;
+}
+
+.navbar{
+	background-color: #f2f7fa;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.wrapper{
+	display: grid;
+	grid-template-columns:300px 300px 300px 300px;
+	grid-column-gap: 10px;
+	grid-template-rows: 100px 100px 100px 100px 80px 80px 80px;
+	grid-row-gap: 10px;
+	margin-left: 95px;
+}
+
+.bigbox{
+	background-color: #C0FFEE;
+	background-image:url(http://www.straitstimes.com/sites/default/files/styles/article_pictrure_780x520_/public/articles/2017/06/22/dw-tharman-oxley-170622.jpg);
+	background-size: cover;
+	grid-column-start:1;
+	grid-column-end:3;
+	grid-row-start:1;
+	grid-row-end:5;
+	color:black;
+	text-align: left;
+}
+
+.bigbox-text h1{
+	background-color: darkblue;
+	width: auto;
+	margin-top: 331px;
+	margin-bottom: 0px;
+	text-align: left;
+	color: white;
+	padding: 30px;
+}
+
+.box2{
+	background-color: #C06FEE;
+	padding:10px;
+	grid-column-start:1;
+	grid-column-end:2;
+	grid-row-start:5;
+	grid-row-end:8;
+	color:white;
+	text-align: left;
+	padding-left: 30px;
+}
+
+.box3{
+	background-color: #dd55Bb;
+	padding:10px;
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:5;
+	grid-row-end:8;
+	color:white;
+	text-align: left;
+	padding-left: 30px;
+}
+
+.box4{
+	background-color: #b1000d;
+	padding:10px;
+	grid-column-start:3;
+	grid-column-end:4;
+	grid-row-start:1;
+	grid-row-end:3;
+	color:white;
+	text-align: left;
+	padding-left: 30px;
+}
+
+.box5{
+	background-color: blue;
+	padding:10px;
+	grid-column-start:3;
+	grid-column-end:4;
+	grid-row-start:3;
+	grid-row-end:5;
+	color:white;
+	text-align: left;
+	padding-left: 30px;
+}
+
+.box6{
+	background-color: lightblue;
+	padding:10px;
+	grid-column-start:3;
+	grid-column-end:4;
+	grid-row-start:5;
+	grid-row-end:6;
+	text-align: left;
+	padding-left: 30px;
+}
+
+.box7{
+	background-color: grey;
+	padding:10px;
+	grid-column-start:3;
+	grid-column-end:4;
+	grid-row-start:6;
+	grid-row-end:7;
+	text-align: left;
+	padding-left: 30px;
+
+}
+
+.box8{
+	background-color: grey;
+	padding:10px;
+	grid-column-start:3;
+	grid-column-end:4;
+	grid-row-start:7;
+	grid-row-end:8;
+	text-align: left;
+	padding-left: 30px;
+
+}
+
+.box9{
+	background-color: grey;
+	padding:10px;
+	grid-column-start:4;
+	grid-column-end:5;
+	grid-row-start:1;
+	grid-row-end:5;
+	text-align: left;
+	padding-left: 30px;
+
+}
+
+.box10{
+	background-color: #;
+	padding:10px;
+	grid-column-start:4;
+	grid-column-end:5;
+	grid-row-start:5;
+	grid-row-end:8;
+	text-align: left;
+	padding-left: 30px;
+
+}
