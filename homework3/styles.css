@@ -47,23 +47,29 @@ header{
 	box-sizing: border-box;
 	position: relative;
 	width: 100%;
-	margin-top: 30px;
+	margin-top: 10px;
 	margin-bottom: 30px;
+	background-color: blue;
+
 }
 
+/*banner advert*/
 .banner {
 	position: relative;
-	margin-top: 0px;
 	overflow: hidden;
 	box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.3);
+	background-color: brown;
 }
 
 .bannercontent{
 	box-sizing: border-box;
 	position: relative;
-	margin: 20px;
-	position: relative;
-	padding: 16px 20px;
+	margin-top: 20px;
+	padding: 40px 20px;
+	overflow: hidden;
+	box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.3);
+	background-position: cover;
+	background-image: url(http://images-1.gog.com/7621b039086fe577be7fe4bc693b8060c0352913a3ddaabb19f3835901b0765d_product_banner_160.jpg);
 }
 
 .bannertitle {
@@ -73,7 +79,28 @@ header{
 }
 
 picture > img {
-    height: 100%;
-    max-width: none;
+	height: 100%;
+	max-width: none;
+}
+
+/*features*/
+.box-left{
+	box-sizing: border-box;
+	position: relative;
+	padding: 15px
+	background-color: orange;
+}
+
+.boxleft h4{
+	margin-bottom: 10px;
+	font-weight: 500;	
+}
+
+.feature-game{
+	width: 60%;
+	padding: 80px;
+	display: block;
+	background-position: center;
+	background-image: url(http://images-3.gog.com/c9392e5858670c3c6ced4ad14da08efb69f7e227580000071dcad887c5f242e1_800.jpg);}
 }
 
