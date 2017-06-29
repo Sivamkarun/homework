@@ -139,25 +139,35 @@ header{
 }
 
 .box9{
+	display: grid;
+	grid-template-columns:300px 300px 300px 300px;
+	grid-column-gap: 5px;
+	grid-template-rows: 100px 100px 100px;
+	grid-row-gap: 10px;
+	margin-left: 95px;
 	background-color: grey;
-	padding:10px;
+	padding:10px 10px 10px 30px;
 	grid-column-start:4;
 	grid-column-end:5;
 	grid-row-start:1;
 	grid-row-end:5;
 	text-align: left;
-	padding-left: 30px;
 
+}
+
+.box9 div {
+	
 }
 
 .box10{
 	background-color: #;
-	padding:10px;
+	padding:10px 10px 10px 30px;
 	grid-column-start:4;
 	grid-column-end:5;
 	grid-row-start:5;
 	grid-row-end:8;
 	text-align: left;
-	padding-left: 30px;
 
 }
+
+.
