@@ -2,6 +2,7 @@ body{
 	margin: 0;
 	font-family: sans-serif,helvetica,arial;
 	background-color: #e6e6e6;
+	display: block;
 }
 
 /* wrap */
@@ -22,7 +23,7 @@ header{
 	width: 100%;
 	display: inline-block;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: 500;
 	color: white;
 	position: relative;
 }
@@ -74,13 +75,8 @@ header{
 
 .bannertitle {
 	color: white;
-	font-size:24px;
+	font-size:20px;
 	margin:0;
-}
-
-picture > img {
-	height: 100%;
-	max-width: none;
 }
 
 /*features*/
@@ -91,16 +87,39 @@ picture > img {
 	background-color: orange;
 }
 
-.boxleft h4{
-	margin-bottom: 10px;
-	font-weight: 500;	
+.box-left h4{
+	width: 75%;
+	padding: 5px 0 5px;
+	color: #262626;
+	font-size: 1em;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 
-.feature-game{
-	width: 60%;
-	padding: 80px;
+/*.feature-game{
 	display: block;
+	position: relative;
+	width:60%
+	height:40%;
 	background-position: center;
 	background-image: url(http://images-3.gog.com/c9392e5858670c3c6ced4ad14da08efb69f7e227580000071dcad887c5f242e1_800.jpg);}
-}
+	}*/
 
+	.feature-game-content {
+		margin-bottom: 10px;
+		display: block;
+		color: white;
+		position: relative;
+		width:60%;
+		height:400px;
+		background-position: cover;
+		background-image: url(http://images-3.gog.com/c9392e5858670c3c6ced4ad14da08efb69f7e227580000071dcad887c5f242e1_800.jpg);
+	}
+
+	.type {
+		position: relative;
+		margin-top: 0px;
+		padding-left: 20px;
+		color: white;
+		background-color: red;
+	}
